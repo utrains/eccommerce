@@ -74,12 +74,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
 #}
 DATABASES = {
     'default': {
-        'ENGINE': ENVIRONMENT.get('DB_ENGINE'),
-        'NAME': ENVIRONMENT.get('DB_NAME'),
-        'USER': ENVIRONMENT.get('DB_USER'),
-        'PASSWORD': ENVIRONMENT.get('DB_PASSWORD'),
-        'HOST': ENVIRONMENT.get('DB_HOST'),
-        'PORT': ENVIRONMENT.get('DB_PORT'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'website',
+        'USER': 'webuser',
+        'PASSWORD': 'utransdb',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
