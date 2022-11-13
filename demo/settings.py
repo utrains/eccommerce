@@ -78,7 +78,7 @@ DATABASES = {
         'NAME': 'website',
         'USER': 'webuser',
         'PASSWORD': 'utrainsdb',
-        'HOST': 'localhost',
+        'HOST': 'db',
         'PORT': '',
     }
 }
