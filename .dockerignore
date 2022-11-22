@@ -1,0 +1,5 @@
+# Ignore Dockerfile
+Dockerfile
+
+# Ignoring the virtual environment 
+venv
